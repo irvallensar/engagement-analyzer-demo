@@ -2,6 +2,7 @@
 streamlit
 spacy
 spacy-streamlit
+spacy-alignments
 spacy-transformers
 torch
 transformers
