@@ -4,7 +4,7 @@ import spacy_streamlit
 
 st.set_page_config(page_title="Engagement Analyzer", layout="wide")
 
-st.title("Academic Engagement Analyzer")
+st.title("Engagement Analyzer")
 st.markdown("This tool uses a Data Augmented RoBERTa (DA-RoBERTa) model to identify and highlight engagement markers in academic text.")
 
 @st.cache_resource
