@@ -62,6 +62,8 @@ Below are the definition of the engagement labels:
 
 If you wish to run the inference pipeline locally:
 
+**Mac:**
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/irvallensar/engagement-analyzer-demo.git
@@ -76,6 +78,31 @@ brew install git-lfs
 git lfs install
 
 # 5. Pull the model weights via Git LFS (this will take a few minutes)
+git lfs pull
+
+# 6. Install dependencies
+pip install -r requirements.txt
+
+# 7. Run the Streamlit app
+streamlit run app.py
+```
+
+**Windows:**
+```bash
+
+# 1. Clone the repository
+git clone https://github.com/irvallensar/engagement-analyzer-demo.git
+
+# 2. Change to project directory
+cd engagement-analyzer-demo
+
+# 3. Install Git LFS package
+winget install GitHub.GitLFS
+
+# 4. Initialize git lfs
+git lfs install
+
+# 5. Download model weights
 git lfs pull
 
 # 6. Install dependencies
