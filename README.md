@@ -50,7 +50,7 @@ Below are the definition of the engagement labels:
 
 ## 🧠 Model Architecture & Performance
 * **Base Model:** `roberta-base`
-* **Augmentation:** Synthetic data generated via Large Language Models (LLMs) was injected into the training pipeline to address extreme class imbalances in pragmatically complex minority classes (Tier 3).
+* **Augmentation:** Synthetic data generated via Large Language Models (Qwen 2.5 32B) was injected into the training pipeline to address extreme class imbalances in pragmatically complex minority classes.
 * **Performance:** The DA-RoBERTa model achieved a **0.7472 Macro F1** score under fixed-split evaluation, demonstrating superior stability over standard baselines.
 
 ## 🛠️ Technical Stack
