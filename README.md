@@ -68,11 +68,17 @@ If you wish to run the inference pipeline locally:
 git clone [https://github.com/irvallensar/engagement-analyzer-demo.git](https://github.com/irvallensar/engagement-analyzer-demo.git)
 cd engagement-analyzer-demo
 
-# 2. Pull the model weights via Git LFS
+# 2. Install git-lfs package
+brew install git-lfs
+
+# 3. Initialize git lfs
+git lfs install
+
+# 4. Pull the model weights via Git LFS (this will take a few minutes)
 git lfs pull
 
-# 3. Install dependencies
+# 5. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Streamlit app
+# 6. Run the Streamlit app
 streamlit run app.py
