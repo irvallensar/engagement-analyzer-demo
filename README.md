@@ -6,7 +6,7 @@ Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool ext
 ## 🚀 Live Demo
 **Try the interactive web app here:** [Live Demo](https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
 
-## ![Engagement Analyzer UI](images/demo_ui.jpg)
+## ![Engagement Analyzer UI](images/demo_ui.png)
 
 ## 📖 How to Use the Engagement Analyzer
 
