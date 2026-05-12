@@ -59,7 +59,6 @@ Below are the definition of the engagement labels:
 * **Deployment:** Streamlit Community Cloud, Git Large File Storage (LFS)
 
 ## 💻 Local Installation
-**⚠️ Important Environment Note:** This project strictly requires **Python 3.10**. Newer versions (such as 3.11 or 3.12) may fail during pip installation because the `spacy-alignments` tokenizer requires specific pre-built wheels to avoid compiling Rust code from scratch. Before deploying the app, go to "Advanced Settings" and select Python 3.10 for the environment.
 
 If you wish to run the inference pipeline locally:
 
