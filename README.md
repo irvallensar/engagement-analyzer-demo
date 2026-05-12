@@ -2,15 +2,12 @@
 This is the demo of my Data Augmented RoBERTa (DA-RoBERTa) and data augmentation was applied to the dataset via Qwen 2.5 32B. Users can try the demo by inputing a sentence, and outputs an engagement label to a word, phrase or sentence from among the 10 engagement labels.
 
 # Engagement Analyzer
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/
-
 The **Engagement Analyzer** is a full-stack Natural Language Processing (NLP) web application designed to computationally identify and classify stance-taking and rhetorical engagement features in academic writing. 
 
 Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool extends Automated Writing Evaluation (AWE) systems beyond basic grammar checks by visualizing how writers interact with their audience, manage external voices, and construct arguments.
 
 ## 🚀 Live Demo
-**Try the interactive web app here:** (https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
+**Try the interactive web app here:** [Live Demo](https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
 
 ## 📖 How to Use the Analyzer
 
