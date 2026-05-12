@@ -1,6 +1,3 @@
-# engagement-analyzer-demo
-This is the demo of my Data Augmented RoBERTa (DA-RoBERTa) and data augmentation was applied to the dataset via Qwen 2.5 32B. Users can try the demo by inputing a sentence, and outputs an engagement label to a word, phrase or sentence from among the 10 engagement labels.
-
 # Engagement Analyzer
 The **Engagement Analyzer** is a full-stack Natural Language Processing (NLP) web application designed to computationally identify and classify stance-taking and rhetorical engagement features in academic writing. 
 
@@ -60,7 +57,7 @@ Below are the definition of the engagement labels:
 * **Deployment:** Streamlit Community Cloud, Git Large File Storage (LFS)
 
 ## 💻 Local Installation
-> **⚠️ Important Environment Note:** This project strictly requires **Python 3.10**. Newer versions (such as 3.11 or 3.12) may fail during pip installation because the `spacy-alignments` tokenizer requires specific pre-built wheels to avoid compiling Rust code from scratch. Before deploying the app, go to "Advanced Settings" and choos Python 3.10 for the environment. 
+**⚠️ Important Environment Note:** This project strictly requires **Python 3.10**. Newer versions (such as 3.11 or 3.12) may fail during pip installation because the `spacy-alignments` tokenizer requires specific pre-built wheels to avoid compiling Rust code from scratch. Before deploying the app, go to "Advanced Settings" and choos Python 3.10 for the environment.
 
 If you wish to run the inference pipeline locally:
 
