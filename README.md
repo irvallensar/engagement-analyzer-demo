@@ -4,7 +4,7 @@ The **Engagement Analyzer** is a full-stack Natural Language Processing (NLP) we
 Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool extends Automated Writing Evaluation (AWE) systems beyond basic grammar checks by visualizing how writers interact with their audience, manage external voices, and construct arguments.
 
 ## 🚀 Live Demo
-**Try the interactive web app here:** [Live Demo](https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
+**Try the Engagement Analyzer here:** [Live Demo](https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
 
 ## ![Engagement Analyzer UI](images/demo_ui.png)
 
@@ -54,7 +54,7 @@ Below are the definition of the engagement labels:
 * **Performance:** The DA-RoBERTa model achieved a **0.7472 Macro F1** score under fixed-split evaluation, demonstrating superior stability over standard baselines.
 
 ## 🛠️ Technical Stack
-* **Machine Learning:** PyTorch, Hugging Face Transformers, spaCy
+* **Machine Learning:** PyTorch, Hugging Face, spaCy
 * **Web Framework:** Streamlit, spacy-streamlit
 * **Deployment:** Streamlit Community Cloud, Git Large File Storage (LFS)
 
