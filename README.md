@@ -3,7 +3,7 @@ The **Engagement Analyzer** is a Natural Language Processing (NLP) web applicati
 
 Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool extends Automated Writing Evaluation (AWE) systems beyond basic grammar checks by visualizing how writers interact with their audience, manage external voices, and construct arguments.
 
-## 🚀 Live Demo
+## Live Demo
 **Try the Engagement Analyzer here:** [Live Demo](https://engagement-analyzer-demo-ig9ypcamgyyyzg7efhawkk.streamlit.app/)
 
 ## ![Engagement Analyzer UI](images/demo_ui.png)
@@ -19,7 +19,7 @@ The interface is designed for real-time inference and token-level visualization.
 
 *(Note: The model is trained on a strict Token Boundary standard. Due to the architecture of standard Named Entity Recognition (NER), the model prioritizes the dominant span in cases of nested rhetorical markers).*
 
-## 🏷️ The 10 Engagement Categories
+## The 10 Engagement Categories
 
 The model extracts markers across 10 engagement labels:
 
@@ -48,7 +48,7 @@ Below are the definition of the engagement labels:
 **Sources** represent a segment of the text where sources of information are referenced in the form of nominalized expressions, as opposed to parenthetical academic citations (e.g., _**Previous studies**_ showed...).
 
 
-## 🧠 Model Architecture & Performance
+## Model Architecture & Performance
 * **Base Model:** `roberta-base`
 * **Augmentation:** Synthetic data generated via Large Language Models (Qwen 2.5 32B) was injected into the training pipeline to address extreme class imbalances in pragmatically complex minority classes.
 * **Performance:** The DA-RoBERTa model achieved a **0.7472 Macro F1** score under fixed-split evaluation, demonstrating superior stability over standard baselines.
@@ -58,8 +58,8 @@ Below are the definition of the engagement labels:
 * **Web Framework:** Streamlit, spacy-streamlit
 * **Deployment:** Streamlit Community Cloud, Git Large File Storage (LFS)
 
-## 💻 Local Installation
-**⚠️ Important Environment Note:** This project strictly requires **Python 3.10**. Newer versions (such as 3.11 or 3.12) may fail during pip installation because the `spacy-alignments` tokenizer requires specific pre-built wheels to avoid compiling Rust code from scratch.
+## Local Installation
+**Important Environment Note:** This project strictly requires **Python 3.10**. Newer versions (such as 3.11 or 3.12) may fail during pip installation because the `spacy-alignments` tokenizer requires specific pre-built wheels to avoid compiling Rust code from scratch.
 
 If you wish to run the inference pipeline locally:
 
