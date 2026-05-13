@@ -111,3 +111,11 @@ pip install -r requirements.txt
 
 # 7. Run the Streamlit app
 streamlit run app.py
+
+```
+
+## License
+
+This repository is provided for research and educational purposes under the MIT License.
+
+See the [LICENSE](LICENSE) file for details.
