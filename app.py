@@ -14,7 +14,7 @@ def load_model():
 nlp = load_model()
 
 # 3. Create the text input box for the user
-default_text = "Though we do not advocate that researchers develop projects about issues in which they have little grounding, we do believe that researchers should view this disciplinary division as an opportunity rather than an obstacle."
+default_text = "In other words, scholars in digital writing may say this type of cross-disciplinary research is outside of their expertise, an argument echoed by L2 writing specialists."
 user_text = st.text_area("Enter text to analyze:", default_text, height=200)
 
 # 4. The Missing Button!
