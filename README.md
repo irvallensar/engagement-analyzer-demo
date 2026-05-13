@@ -1,5 +1,5 @@
 # Engagement Analyzer
-The **Engagement Analyzer** is a full-stack Natural Language Processing (NLP) web application designed to computationally identify and classify stance-taking and rhetorical engagement features in academic writing. 
+The **Engagement Analyzer** is a Natural Language Processing (NLP) web application designed to computationally identify and classify stance-taking and rhetorical engagement features in academic writing. 
 
 Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool extends Automated Writing Evaluation (AWE) systems beyond basic grammar checks by visualizing how writers interact with their audience, manage external voices, and construct arguments.
 
@@ -78,7 +78,7 @@ brew install git-lfs
 # 4. Initialize git lfs
 git lfs install
 
-# 5. Pull the model weights via Git LFS (this will take a few minutes)
+# 5. Download model weights
 git lfs pull
 
 # 6. Install dependencies
