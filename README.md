@@ -8,7 +8,7 @@ Powered by a custom **Data-Augmented RoBERTa (DA-RoBERTa)** model, this tool ext
 
 ## ![Engagement Analyzer UI](images/demo_ui.png)
 
-## 📖 How to Use the Engagement Analyzer
+## How to Use the Engagement Analyzer
 
 The interface is designed for real-time inference and token-level visualization. 
 
@@ -53,7 +53,7 @@ Below are the definition of the engagement labels:
 * **Augmentation:** Synthetic data generated via Large Language Models (Qwen 2.5 32B) was injected into the training pipeline to address extreme class imbalances in pragmatically complex minority classes.
 * **Performance:** The DA-RoBERTa model achieved a **0.7472 Macro F1** score under fixed-split evaluation, demonstrating superior stability over standard baselines.
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Machine Learning:** PyTorch, Hugging Face, spaCy
 * **Web Framework:** Streamlit, spacy-streamlit
 * **Deployment:** Streamlit Community Cloud, Git Large File Storage (LFS)
