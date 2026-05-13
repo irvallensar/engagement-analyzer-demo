@@ -116,6 +116,6 @@ streamlit run app.py
 
 ## License
 
-This repository is provided for research and educational purposes under the MIT License.
+This repository is provided for research and educational purposes under the Apache License 2.0.
 
 See the [LICENSE](LICENSE) file for details.
