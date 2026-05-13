@@ -2,6 +2,30 @@ import streamlit as st
 import spacy
 import spacy_streamlit
 
+custom_colors = {
+    "MONOGLOSS": "#E0E0E0",     # Light Grey
+    "ATTRIBUTION": "#B3E5FC",   # Light Blue
+    "ENTERTAIN": "#C8E6C9",     # Light Green
+    
+    "DENY": "#FFCDD2",          # Light Red
+    "COUNTER": "#FFE0B2",       # Light Orange
+    "PROCLAIM": "#E1BEE7",      # Light Purple
+    
+    "SOURCES": "#D7CCC8",       # Light Brown
+    "JUSTIFYING": "#FFF9C4",    # Light Yellow
+    "ENDOPHORIC": "#B2DFDB",    # Light Teal
+    "CITATION": "#F5F5F5"       # Off-White
+}
+
+# 2. Add the displacy_options dictionary to your visualization call
+spacy_streamlit.visualize_ner(
+    doc,
+    labels=list(custom_colors.keys()),
+    show_table=False, # Set to True if you want the table view beneath it
+    title="Engagement Markers",
+    displacy_options={"colors": custom_colors}
+)
+
 st.set_page_config(page_title="Engagement Analyzer", layout="wide")
 
 st.title("Engagement Analyzer")
