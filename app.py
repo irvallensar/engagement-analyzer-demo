@@ -14,7 +14,7 @@ def load_model():
 nlp = load_model()
 
 # 3. Create the text input box for the user
-default_text = "In other words, scholars in digital writing may say this type of cross-disciplinary research is outside of their expertise, an argument echoed by L2 writing specialists."
+default_text = "A designated smoking area is required to smoke not just in restaurants but even in hawker and shopping cents . Smokers , on the other hand , think that this is against their rights and freedom . In my opinion , however , smoking should be completely banned at all restaurants ."
 user_text = st.text_area("Enter text to analyze:", default_text, height=200)
 
 # 4. The Missing Button!
