@@ -17,28 +17,31 @@ nlp = load_model()
 default_text = "Though we do not advocate that researchers develop projects about issues in which they have little grounding, we do believe that researchers should view this disciplinary division as an opportunity rather than an obstacle."
 user_text = st.text_area("Enter text to analyze:", default_text, height=200)
 
-# 4. Process the text through DA-RoBERTa to create the 'doc'
-doc = nlp(user_text)
+# 4. The Missing Button!
+if st.button("Analyze Text"):
+    
+    # 5. Process the text through DA-RoBERTa ONLY when the button is clicked
+    doc = nlp(user_text)
 
-# 5. Define your custom hex colors
-custom_colors = {
-    "MONOGLOSS": "#E0E0E0",     
-    "ATTRIBUTION": "#B3E5FC",   
-    "ENTERTAIN": "#C8E6C9",     
-    "DENY": "#FFCDD2",          
-    "COUNTER": "#FFE0B2",       
-    "PROCLAIM": "#E1BEE7",      
-    "SOURCES": "#D7CCC8",       
-    "JUSTIFYING": "#FFF9C4",    
-    "ENDOPHORIC": "#B2DFDB",    
-    "CITATION": "#F5F5F5"       
-}
+    # 6. Define your custom hex colors
+    custom_colors = {
+        "MONOGLOSS": "#E0E0E0",     
+        "ATTRIBUTION": "#B3E5FC",   
+        "ENTERTAIN": "#C8E6C9",     
+        "DENY": "#FFCDD2",          
+        "COUNTER": "#FFE0B2",       
+        "PROCLAIM": "#E1BEE7",      
+        "SOURCES": "#D7CCC8",       
+        "JUSTIFYING": "#FFF9C4",    
+        "ENDOPHORIC": "#B2DFDB",    
+        "CITATION": "#F5F5F5"       
+    }
 
-# 6. Visualize the 'doc' with the custom colors
-spacy_streamlit.visualize_ner(
-    doc,
-    labels=list(custom_colors.keys()),
-    show_table=False, 
-    title="Engagement Markers",
-    displacy_options={"colors": custom_colors}
-)
+    # 7. Visualize the 'doc' with the custom colors
+    spacy_streamlit.visualize_ner(
+        doc,
+        labels=list(custom_colors.keys()),
+        show_table=False, 
+        title="Engagement Markers",
+        displacy_options={"colors": custom_colors}
+    )
