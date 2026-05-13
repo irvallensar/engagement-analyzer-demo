@@ -17,7 +17,6 @@ custom_colors = {
     "CITATION": "#F5F5F5"       # Off-White
 }
 
-# 2. Add the displacy_options dictionary to your visualization call
 spacy_streamlit.visualize_ner(
     doc,
     labels=list(custom_colors.keys()),
