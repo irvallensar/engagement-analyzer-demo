@@ -35,7 +35,7 @@ Below are the definition of the engagement labels:
 
 **Deny** is an utterance which invokes a contrary position but which at the same time rejects it directly. The contrary position is hence given very little dialogic space (e.g., The author _**did not provide**_ any information about the method).
 
-**Endophoric** markers are text segments that refer to information in other parts of its own text (e.g., _**As described**_ above, other participants felt financial and psychological constraints...).
+**Endophoric** markers are text segments that refer to information in other parts of its own text (e.g., As described _**above**_, other participants felt financial and psychological constraints...).
 
 **Entertain** is an utterance which opens the dialogic space by acknowledging a proposition as one possibility amongst others (e.g., _**It appears that**_ maximum price fixing does the greatest harm...).
 
